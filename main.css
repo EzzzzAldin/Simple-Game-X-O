@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game {
+  background-color: #ccc;
+  margin: 20px auto;
+  width: 800px;
+  height: 600px;
+  border-radius: 5px;
+  font-family: "Akaya Telivigala", cursive;
+  position: relative;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: -28px;
+  font-size: 40px;
+}
+
+h2 {
+  color: darkgreen;
+  display: none;
+}
+
+.chosse,
+.final {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.x,
+.o {
+  background-color: #fff;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 3s;
+  font-size: 30px;
+}
+
+.x:hover,
+.o:hover {
+  background-color: #eee;
+}
+
+.game span {
+  background-color: #fff;
+  width: 33%;
+}
+
+.final {
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.final div {
+  background-color: #fff;
+  width: 33%;
+  border: 2px solid black;
+  height: 100px;
+  text-align: center;
+  font-size: 70px;
+  border-radius: 5px;
+}
+
+.r1-1x,
+.r1-2x,
+.r1-3x,
+.r2-1x,
+.r2-2x,
+.r2-3x,
+.r3-1x,
+.r3-2x,
+.r3-3x {
+  display: none;
+}
+
+.r1-1o,
+.r1-2o,
+.r1-3o,
+.r2-1o,
+.r2-2o,
+.r2-3o,
+.r3-1o,
+.r3-2o,
+.r3-3o {
+  display: none;
+}
+
+button {
+  margin: 20px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  font-family: "Akaya Telivigala", cursive;
+  position: absolute;
+  left: 42%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
